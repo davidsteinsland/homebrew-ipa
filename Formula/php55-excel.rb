@@ -10,7 +10,8 @@ class Php55Excel < AbstractPhp55Extension
   depends_on 'libxl'
 
   def install
-    Dir.chdir "php_excel-#{version}" unless build.head?
+    # does not work
+    #Dir.chdir "php_excel-#{version}" unless build.head?
 
     ENV.universal_binary if build.universal?
 

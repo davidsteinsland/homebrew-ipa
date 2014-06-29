@@ -7,7 +7,7 @@ class Libxl < Formula
 
   def install
     lib.install 'lib/libxl.dylib'
-    include.install Dir["include_c/[A-Za-z]*[AW].h", "include_c/libxl.h"]
+    include.install Dir["include_c/*.h"]
   end
 
   def caveats; <<-EOS
