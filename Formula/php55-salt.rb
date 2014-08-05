@@ -3,8 +3,8 @@ require File.join(File.dirname(__FILE__), 'abstract-php-extension')
 class Php55Salt < AbstractPhp55Extension
   init
   homepage 'https://github.com/SaltShipDesign/salt-util'
-  url 'https://github.com/SaltShipDesign/salt-util/archive/v0.4.2.1.tar.gz'
-  sha1 '042e5ed1a76759b22bc55109bc1b7d9bfcab43c2'
+  url 'https://github.com/SaltShipDesign/salt-util/archive/v0.4.8.tar.gz'
+  sha1 '4f1629309ccba6c26fa09761a8a710c10575b1cf'
   head 'https://github.com/SaltShipDesign/salt-util.git'
 
   def install
