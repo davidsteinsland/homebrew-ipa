@@ -5,6 +5,7 @@ class Php55Scream < AbstractPhp55Extension
   homepage 'http://pecl.php.net/package/scream'
   url 'http://pecl.php.net/get/scream-0.1.0.tgz'
   sha1 '603048320d6e0b714b85ee84c5bb7a874de1eb26'
+  head 'https://svn.php.net/repository/pecl/scream/trunk/'
 
   def install
     ENV.universal_binary if build.universal?
