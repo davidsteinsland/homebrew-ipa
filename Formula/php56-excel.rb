@@ -1,6 +1,6 @@
 require File.join(File.dirname(__FILE__), 'abstract-php-extension')
 
-class Php56Excel < AbstractPhp55Extension
+class Php56Excel < AbstractPhp56Extension
   init
   homepage 'https://github.com/iliaal/php_excel'
   url 'https://github.com/iliaal/php_excel/archive/1.0.tar.gz'
